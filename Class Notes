@@ -1,0 +1,120 @@
+﻿JAVA
+
+Day 1 (24 Oct 2022)
+1) Check if Java is installed (java -version)
+2) If not then install using java installer 
+3) Set up enviromental variables for the java path
+4) Write your first java program and compile and run it  
+
+/* Welcome everyone
+* This is my first program in Java
+*/
+
+public class HelloWorld
+{
+	//This is the main method 
+	public static void main(String args[])
+	{	
+		//This method will print the message
+		System.out.println("Hello World"); System.out.println("Next line");
+	}
+}
+
+5) Compile it using javac Filename.java
+6) After compilation you will get a .class file
+7) You can run the file using java Filename
+
+Class Syntax 
+
+public (access modifer) class ClassName
+{
+	Write methods/functions
+	Create variables
+}
+
+Comments in Java
+
+Lines which are not compiled or executed by the compiler 
+
+1)Single line comment //
+2)Multi-line comment  /**/
+
+
+
+
+Variable: Is a placeholder 
+Syntax 
+Declare and initialize the variable
+int a = 10;
+DataType VariableName = Value
+Declare a variable
+int a; 
+
+Data Types
+Indicates what kind of data you can store in the variable 
+
+2 kind of data types
+1)Primitive data type
+Store only value
+A.Byte               1 byte
+B.Short             2 byte
+C.Int                  4 byte
+D.Long              8 byte
+E.Float              4 byte
+F.Double          8 byte
+G.Char              2 byte
+H.Boolean       1 byte
+
+2)Non-primitive 
+Store the value and reference of another data type also
+Arrays, Class, Interfaces
+
+Conditional Statements: used to check conditions 
+1)If 
+2)If else
+3)If else if 
+4)Switch statement (multiple cases - suitable for creating a menu in application)
+
+int a = 10;
+If (a==10)
+System.out.println(“a is 10”);
+Else
+System.out.println(“a is not equal to 10)
+
+Switch(variable){
+	Case a: S.o.p (“You’re in 1st option);
+}
+
+
+
+
+Loop
+To execute some line of code in iteration/multiple times.
+3 parts of loop
+A.Initialize the looping variable
+B.Put condition for the looping variable
+C.Increment or decrement looping variable
+
+1)For loop
+Syntax: 
+for(int a=0; a<10; a++)  //a++ means a = a + 1 //increment
+//if decrement I will write a-- 
+for(int a=10; a>=0; a--)
+{
+	S.o.p(“Value of a is”+a);
+}
+
+2)While Loop
+Initialize  the value
+While (condition)
+{
+Increment/decrement
+}
+
+3)Do while loop
+do{
+Increment/decrement
+} while(condition)
+
+
+Day 2(25 oct 2022)
